@@ -6,7 +6,8 @@ configuration:
   - release
 
 environment:
-  - PYTHON: "C:\\Python36-x64"
+  matrix:
+    - PYTHON: "C:\\Python36-x64"
 
 build_script:
   - git clone https://github.com/PaddlePaddle/VisualDL.git
