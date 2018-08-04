@@ -6,7 +6,7 @@ configuration:
   - release
 
 build_script:
-  - git clone git@github.com:PaddlePaddle/VisualDL.git
+  - git clone https://github.com/PaddlePaddle/VisualDL.git
   - cd VisualDL
   - git checkout develop
   - pip install -r requirements.txt
