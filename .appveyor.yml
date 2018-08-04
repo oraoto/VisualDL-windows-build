@@ -9,8 +9,8 @@ build_script:
   - git clone https://github.com/PaddlePaddle/VisualDL.git
   - cd VisualDL
   - git checkout develop
-  - pip install -r requirements.txt
-  - python setup.py bdist_wheel
+  - pip3 install -r requirements.txt
+  - python3 setup.py bdist_wheel
 artifacts:
   - path: 'VisualDL\dist\*.whl'
 
