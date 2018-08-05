@@ -13,6 +13,7 @@ build_script:
   - git clone https://github.com/PaddlePaddle/VisualDL.git
   - cd VisualDL
   - git checkout develop
+  - set "PATH=%PYTHON%;%PATH%"
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install -r requirements.txt"
   - "%PYTHON%\\python.exe setup.py bdist_wheel"
