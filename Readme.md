@@ -6,4 +6,8 @@
 
 ## Tested artifacts
 
-+ [VisualDL 1.1.0 (Python 3.6 x64)](https://ci.appveyor.com/project/oraoto/visualdl-windows-build/build/14/artifacts)
+### 1.1.0
+
++ [Python 3.5 x64](https://ci.appveyor.com/project/oraoto/visualdl-windows-build/build/job/5cyniswhs1xv9nlh/artifacts)
++ [Python 3.6 x64](https://ci.appveyor.com/project/oraoto/visualdl-windows-build/build/job/ttu9jtk1kge0nm7g/artifacts)
+
