@@ -2,9 +2,9 @@ REM Setup MSVC
 call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 REM Clone VisualDL
-git clone https://github.com/oraoto/VisualDL.git
+git clone https://github.com/PaddlePaddle/VisualDL.git
 cd VisualDL
-git checkout windows-v1.1.0
+git checkout 4cd482460f
 
 REM Setup environment variables
 set "PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
