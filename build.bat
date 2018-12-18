@@ -4,7 +4,7 @@ call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary
 REM Clone VisualDL
 git clone https://github.com/PaddlePaddle/VisualDL.git
 cd VisualDL
-git checkout 4cd482460f
+git checkout 2004503342f1c5fafb26307513ef2d90f17b4fd0
 
 REM Setup environment variables
 set "PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
