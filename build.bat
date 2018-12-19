@@ -16,7 +16,7 @@ pip install wheel
 pip install -r requirements.txt
 
 Rem Python 3.6.6 in AppVeyor has issue with numpy 1.14
-pip install numpy==1.13 -U
+pip install numpy==1.15 -U
 
 Rem Build
 python setup.py bdist_wheel
