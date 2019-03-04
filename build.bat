@@ -2,7 +2,7 @@ REM Setup MSVC
 call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 REM Clone VisualDL
-git clone git@github.com:PaddlePaddle/VisualDL.git
+git clone https://github.com/PaddlePaddle/VisualDL.git
 cd VisualDL
 git checkout cfaba830b8812392638c0d60cf079217b2666ad8
 
